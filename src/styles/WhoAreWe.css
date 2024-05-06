@@ -1,0 +1,50 @@
+body,
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-section {
+  flex: 1;
+  padding: 50px;
+  background-color: #ffffff;
+}
+
+.text-section h1 {
+  color: #00b3a6;
+}
+
+.text-section p1 {
+  color: #166a63;
+  padding-bottom: 50px;
+}
+
+.button {
+  background-color: #333333;
+  display: block;
+  color: #ffffff;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+  border-color: #333333;
+  cursor: pointer;
+}
+
+.image-section {
+  position: relative;
+  width: 75%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.image-section img {
+  flex: 1;
+  width: 100%;
+  height: auto;
+  background-color: teal;
+}
