@@ -1,6 +1,6 @@
 import React from 'react'
-import App from "./App";
-import './WhoAreWe.css';
+import '../styles/WhoAreWe.css';
+import '../gwc-logo.png';
 
 const WhoAreWe = () => {
   return (
@@ -15,15 +15,13 @@ const WhoAreWe = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus imperdiet sed id elementum. Quam vel aliquam sit vulputate. 
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus imperdiet sed id elementum. Quam vel aliquam sit vulputate. 
         </p>
-        <button className='button'>
+        <button onclick="window.location.href='';" className='button'>
           Meet the Girls Who Code Team!
         </button>
         </div>
-        <div className='image-section'>
-          <img src='gwc-logo.png' alt=''/>
-      </div>
+        <img className='image-section' src='gwc-logo.png' alt='placeholder image'/>
     </div>
-  )
+  );
 }
 
 export default WhoAreWe
